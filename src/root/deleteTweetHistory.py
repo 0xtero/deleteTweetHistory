@@ -92,5 +92,5 @@ if __name__ == "__main__":
     vReport = doReport(lDeleteTweets)
     print vReport
     # And e-mail it
-    #sendEmail(vEmail,vReport)
+    sendEmail(vEmail,vReport)
     
