@@ -18,16 +18,16 @@ Pre-reqs and Installation.
 --------------------------
 
 You'll need 
-	* Python 2.x
-	* Tweepy (http://tweepy.github.com/)
-	* Access to SMTP-server running at localhost
+* Python 2.x
+* Tweepy (http://tweepy.github.com/)
+* Access to SMTP-server running at localhost
 
 In order to run it, you need to:
-	* Login to Twitter dev (https://dev.twitter.com/
-	* Go to "My Apps" (https://dev.twitter.com/apps)
-	* Create New App
-	* Once done, go to the OAuth tab
-	* Open config.ini and fill in the required OAuth strings
+* Login to Twitter dev (https://dev.twitter.com/
+* Go to "My Apps" (https://dev.twitter.com/apps)
+* Create New App
+* Once done, go to the OAuth tab
+* Open config.ini and fill in the required OAuth strings
 
 That's it - it's pretty basic OAuth Twitter app setup.
 
@@ -58,4 +58,4 @@ optional arguments:
 
  Author
  ------
- Tero Hänninen <tero@hanninen.eu>
+ Tero Hï¿½nninen <tero@hanninen.eu>
