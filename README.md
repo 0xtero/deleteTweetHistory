@@ -55,7 +55,3 @@ optional arguments:
  ------------
  * Clients may not make more than 350 requests per hour, so if you have a lot of tweets to delete, you'll hit this. There's no error handling, sorry. The script will just probably terminate.
  * It returns total of 3200 tweets (and then iterates through those to check for old replies). I have no idea what happens if you have more.
-
- Author
- ------
- Tero H�nninen <tero@hanninen.eu>
