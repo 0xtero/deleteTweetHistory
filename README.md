@@ -1,4 +1,4 @@
-deteleTweetHistory
+deleteTweetHistory
 ==================
 
 This small script goes through your Twitter timeline and deletes your old @reply tweets from it.
