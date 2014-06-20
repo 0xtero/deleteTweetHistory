@@ -6,7 +6,7 @@ import argparse
 import datetime
 import tweepy
 from tweepy import Cursor
-import ConfigParser
+import configparser
 
 def doLogin(consumer_key, consumer_secret, access_token, access_token_secret):
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -78,8 +78,6 @@ if __name__ == "__main__":
     config.read("config.ini")
     CONSUMER_KEY = config.get("OAUTH", "CONSUMER_KEY")
     CONSUMER_SECRET = config.get("OAUTH", "CONSUMER_SECRET")
-    ACCESS_TOKEN = config.get("OAUTH", "ACCESS_TOKEN")
-    ACCESS_TOKEN_SECRET = config.get("OAUTH", "ACCESS_TOKEN_SECRET")
     
     # Authenticate session
     session = doLogin(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
